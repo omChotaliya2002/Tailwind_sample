@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+}
+
+
+@tailwind utilities;
+
+.mytext{
+    @apply font-bold text-yellow-400 bg-black
+}
+
+@layer components{
+    .btn2{
+       @apply font-bold h-10 w-28 text-white bg-purple-500 rounded-xl mt-20 active:bg-purple-700
+    }
+}
+
